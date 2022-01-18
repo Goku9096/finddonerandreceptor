@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find blood group</title>
+   
+    
+    <style>
+        *{
+         
+            padding: 0;
+            margin: 0;
+            
+        }
+        body{
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        display: flex;
+        height: 90vh;
+        width: 90%;  
+        min-width: 30vh;
+        min-height: 35%;
+        max-width: 100vh;
+        max-height: 100%;
+        background: url(fggfdfg.jpg);
+        justify-content: center;
+        align-items: center;
+        color: snow;
+        left: 5%;
+        }
+        input{
+        position: relative;
+        border-radius: 20px;
+        border-color: springgreen;
+        height: 20px;
+        width: 90px;
+        left: 30%;
+        margin-top: 20px;
+        color: deeppink; 
+        text-transform: uppercase;
+        }
+        input:hover{
+            border-color: tomato;
+            border-radius: 25px;
+            height: 30px;
+            width: 100px;
+        }
+        button{
+            position: relative;
+            left: 33%;
+            border-radius: 5px;
+            margin-top: 9px;
+            color: deepskyblue;
+        }
+      #out{
+          position: relative;
+          color:whitesmoke;
+          height: 70%;
+          width: 35%;
+          text-transform: uppercase;
+          font-family: fantasy;
+          font-size: 30px;
+          border: solid;
+          border-radius: 10px;
+          left: 60%;
+          top: 10%;
+         padding-left: 30px;
+        padding-top: 10px;
+        overflow: auto;
+        }
+        #task{
+            color: turquoise;
+        }
+        #holder{
+              margin-top: 10%;
+              position: relative;
+               height: 300px;
+               width: 500px;
+               border: solid;
+               bottom: 20%;
+               border-radius: 20px;
+               padding-left: 4%;
+               font-family: fantasy;
+               font-size: 30px;
+               color: rgb(26, 128, 211);
+               overflow: auto;
+
+        }
+        #creater{
+            color: deeppink;
+        }
+      
+
+    </style>
+</head>
+<body>
+   <div>
+  
+   <div>
+       <h1>ENTER YOUR BLOOD GROUP </h1>
+</div>
+<div id="input box">
+    <input type="text" id="input" name="text" maxlength="3" placeholder="your blood group">
+</div>
+<button id="button"> ENTER</button><br>
+<button id="clear"> CLEAR</button>
+<div id="holder">TO DONATE<br></div>
+</div>
+
+<script src="./bldgp.js"></script>
+</body>
+<div id="out">
+<div style="color:skyblue;">FROM DONER<br></div> 
+</div>
+</html>
